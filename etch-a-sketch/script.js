@@ -40,4 +40,9 @@ $(document).ready(function () {
         createGrid(Math.pow(gsize, 2));
         draw();
     });
+
+    $('#reset').click(function() {
+        $('.block').css('background-color', 'white');
+        draw();
+    });
 });
