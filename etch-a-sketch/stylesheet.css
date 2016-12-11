@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+
+#grid {
+    width: 600px;
+    height: 600px;
+    margin: 20px auto;
+    outline: 5px solid;
+}
+
+.block {
+    float: left;
+    margin: 0px;
+    outline: 1px solid;
+}
